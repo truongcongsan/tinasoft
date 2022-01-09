@@ -1,0 +1,129 @@
+.loal-container {
+  padding: 10px 35px;
+}
+.loal-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.loal-title {
+  width: 360px;
+  height: 60px;
+  background-image: url("../../../public/img/bg-txt-small.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.loal-title h4 {
+  margin-top: 5px;
+  color: #c32d2d;
+  font-size: 24px;
+  font-weight: 800;
+}
+.loal-plus {
+  width: 55px;
+  cursor: pointer;
+}
+/* ---------------------------------- */
+.loal-main {
+  padding: 20px 30px;
+}
+.loal-main > .ant-tabs-nav::before {
+  display: none;
+}
+.loal-main > div > div > .ant-tabs-nav-list {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+}
+.loal-main > div > div > .ant-tabs-nav-list > div {
+  color: #a72c2c;
+}
+.loal-main > div > div > .ant-tabs-nav-list > .ant-tabs-ink-bar {
+  width: 0 !important;
+}
+.loal-main > div > div > .ant-tabs-nav-list > .ant-tabs-tab {
+  padding: 7px 0;
+}
+.loal-main > div > div > .ant-tabs-nav-list .ant-tabs-tab-active {
+  color: #fff !important;
+  background-color: #de8500;
+  border-radius: 50px;
+}
+.loal-main > div > div > .ant-tabs-nav-list > div > .ant-tabs-tab-btn {
+  font-weight: 700;
+  font-size: 16px;
+  padding: 0px 40px;
+  color: unset !important;
+  text-transform: uppercase;
+}
+/* ---------------------------------------- */
+.loal-table {
+  width: 100%;
+}
+.loal-table-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: #a72c2c;
+  margin: 20px 0;
+}
+.loal-table-title > div:nth-child(1),
+.loal-table-content > div:nth-child(1) {
+  width: 25%;
+}
+.loal-table-title > div:nth-child(3),
+.loal-table-content > div:nth-child(3) {
+  width: 28%;
+}
+.loal-table-title > div:nth-child(2),
+.loal-table-content > div:nth-child(2) {
+  width: 40%;
+}
+.loal-table-title > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+.loal-table-content {
+  background-color: #fff;
+  border-radius: 50px;
+  padding: 10px;
+  margin: 20px 0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.loal-table-content > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #f2e8e0;
+  border-radius: 50px;
+}
+.loal-total {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+.loal-total > div:nth-child(2) {
+  width: 71%;
+  background-color: #fff;
+  border-radius: 50px;
+}
+.loal-total > div:nth-child(1) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 25%;
+  font-size: 24px;
+  font-weight: 700;
+  background-color: #fff;
+  border-radius: 100px;
+}

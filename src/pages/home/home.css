@@ -1,0 +1,53 @@
+:root {
+  --width-nav: 258px;
+}
+
+#root
+  > .ant-row
+  > div
+  > div
+  > .ant-tabs-nav
+  > div
+  > div
+  > .ant-tabs-tab-active {
+  background-color: #eee;
+}
+#root > .ant-row > div > div > .ant-tabs-nav {
+  min-height: 100vh;
+  width: var(--width-nav);
+  margin-top: 42px;
+}
+.tab-title {
+  color: #555c72;
+}
+.tab-title i {
+  margin-right: 10px;
+  color: #555c72;
+}
+#root > .ant-row > div > div > .ant-tabs-content-holder {
+  background-color: #f2e8e0;
+}
+#root > .ant-row > div > div > .ant-tabs-nav > div > div > .ant-tabs-tab {
+  padding: 17px 24px !important;
+}
+.box-logo {
+  width: var(--width-nav);
+}
+.logo {
+  width: 88%;
+}
+.box-avt {
+  width: calc(100% - var(--width-nav));
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  background-color: #f2e8e0;
+}
+.btn-logout {
+  border: none;
+  background-color: transparent;
+  font-size: 14px;
+  font-weight: 600;
+  margin-right: 30px;
+  cursor: pointer;
+}

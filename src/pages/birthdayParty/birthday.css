@@ -1,0 +1,39 @@
+.birthday-container {
+  padding: 10px 35px;
+}
+.birthday-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.birthday-title {
+  width: 360px;
+  height: 60px;
+  background-image: url("../../../public/img/bg-txt-small.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.birthday-title h4 {
+  margin-top: 5px;
+  color: #c32d2d;
+  font-size: 24px;
+  font-weight: 800;
+}
+.birthday-card{
+  background-color: #fff;
+  border-radius: 10px;
+  margin: 10px 30px;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+.birthday-card:hover{
+  background-color: #ddd;
+}

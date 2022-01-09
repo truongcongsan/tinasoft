@@ -1,0 +1,86 @@
+.profile-container {
+  padding: 10px 35px;
+}
+.information {
+  display: flex;
+  justify-content: space-between;
+  background: linear-gradient(#9b0821, #AE2B21, #df8321);
+  border-radius: 40px;
+  padding: 25px 35px;
+}
+.avt {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.avt h2 {
+  color: #fff;
+  font-size: 24px;
+  font-weight: 400;
+  margin-bottom: 0;
+  margin-top: 16px;
+}
+.information table {
+  color: #fff;
+}
+.information table tr td {
+  padding: 8px;
+  font-size: 18px;
+}
+.information table tr td:nth-child(2) {
+  min-width: 300px;
+}
+.contact-container {
+  margin-top: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.contact-container > div {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.contact-icon {
+  height: 70px;
+  width: 70px;
+  background-size: cover;
+}
+.icon-1 {
+  background-image: url("../../../public/img/icon-1.png");
+}
+.icon-2 {
+  background-image: url("../../../public/img/icon-2.png");
+}
+.icon-3 {
+  background-image: url("../../../public/img/icon-3.png");
+}
+.form-profile {
+  margin-top: 30px;
+}
+.input-profile{
+    margin-bottom: 10px;
+}
+.input-profile input {
+  font-size: 18px;
+  border-radius: 50px;
+  padding: 6px 40px;
+}
+.btn-profile div div div {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+.btn-profile div div div button {
+  background: linear-gradient(#9b0821, #AE2B21, #df8321);
+  border: none;
+  border-radius: 50px;
+  padding: 5px 50px;
+  color: #fff;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  margin-left: 12px;
+}

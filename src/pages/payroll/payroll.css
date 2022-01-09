@@ -1,0 +1,71 @@
+.pay-container {
+  padding: 10px 35px;
+}
+.pay-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pay-title {
+  width: 360px;
+  height: 60px;
+  background-image: url("../../../public/img/bg-txt-small.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.pay-title h4 {
+  margin-top: 5px;
+  color: #c32d2d;
+  font-size: 24px;
+  font-weight: 800;
+}
+.pay-content {
+  margin-top: 30px;
+}
+.pay-table {
+  background-color: #fff;
+  border-radius: 17px;
+  height: 400px;
+}
+.pay-table-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #f09846;
+  padding: 8px;
+  border-radius: 50px;
+}
+.pay-table-header > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+  font-size: 16px;
+}
+.pay-table-header > div:nth-child(1),
+.pay-table-header > div:nth-child(3),
+.pay-table-content > div:nth-child(1),
+.pay-table-content > div:nth-child(3) {
+  width: 25%;
+}
+.pay-table-header > div:nth-child(2),
+.pay-table-content > div:nth-child(2) {
+  width: 50%;
+}
+.pay-table-content{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.pay-table-content > div {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #F2E8E0;
+  margin: 15px 20px;
+  border-radius: 10px;
+  font-weight: 700;
+}
